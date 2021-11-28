@@ -124,12 +124,12 @@ header li p{display: inline;}
     color: #fff;
     padding: 10px 10px;
     margin: 5px;
-    font-size: 20px;
+    font-size: 35px;
     border: 1px solid forestgreen;
     border-radius: 5px;
     background-color: forestgreen;
     transition: all .5s;
-    width: 100px;
+    width: 200px;
 }
 #showimg button .icon{
     background-image: url("../images/phoneicon.png");
