@@ -65,8 +65,10 @@ header #brand h1{
 
 }
 header nav{
-    float: left;
-    margin-top: 10px;
+    margin-right: 250px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
 }
 header .current a{
     color: white;
@@ -94,6 +96,16 @@ header li p{display: inline;}
     padding-left: 15px;
     padding-right: 15px;
 
+}
+#showimg .etsal button:hover 
+{
+    background-color:hotpink;
+    font-weight: bold;
+    color: forestgreen;
+ 
+}
+#showimg .etsal button a:hover{
+    color: forestgreen;
 }
 #showimg{
     padding-top: 60px;
@@ -131,14 +143,15 @@ header li p{display: inline;}
     transition: all .5s;
     width: 200px;
 }
-#showimg button .icon{
-    background-image: url("../images/phoneicon.png");
-    width: 60px;
-    height: 60px;
-}
+
 #showimg .etsal h3{
     font-size: 40px;
     font-weight: 800;
+
+}
+#showimg .etsal p{
+    font-size: 35px;
+
 
 }
 /* #showimg{
@@ -166,7 +179,6 @@ header li p{display: inline;}
     text-align: center;
    
 }
-
 .con{
     margin: auto;
     width: 90%;
@@ -225,9 +237,6 @@ header li p{display: inline;}
     flex-wrap: nowrap;
     align-content: center;
 }
-.tanseq img:hover{
-     transform:rotateY(180deg)
-}
 .tanseq .dtan{
  color:black;
  width: 300px;
@@ -237,7 +246,7 @@ header li p{display: inline;}
 font-size: 20px;
 
 }
-.tanseq .dflower{
+/* .tanseq .dflower{
     color:black;
  width: 300px;
  height: 200px;
@@ -257,7 +266,7 @@ font-size: 20px;
 font-size: 20px;
   
     
-}
+} */
  .dtan{
  margin-top: 20px;
  color:black;
@@ -297,7 +306,7 @@ font-size: 20px;
      70%{left:-2000px;}
      80%{left:-2500px;}
  }
-.dflower{
+/* .dflower{
     color:black;
  width: 300px;
  height: 200px;
@@ -317,7 +326,7 @@ font-size: 20px;
 font-size: 20px;
   
     
-}
+} */
 .serimg {
 position: relative;
 display: flex;
@@ -339,6 +348,7 @@ flex-direction: row;
 .showvid video{
     size: inherit;
 }
+
  .footer{
     background-color: black;
     height: fit-content;
@@ -393,6 +403,6 @@ section .video-library{
     font-size: 20px;
     color: forestgreen;
     margin: auto;
-    background-color: white;
+    background-color: cadetblue;
     padding: 10px;
 }
